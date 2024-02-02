@@ -4,8 +4,9 @@ body {
 }
 
 #playingfield {
-  background-color: antiquewhite;
+  background-image: url(../images/background.png);
   height: 100vh;
+  background-image: contain;
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -29,7 +30,7 @@ body {
 
 #page-gameover {
   text-align: center;
-  background-color: rgb(7, 6, 7);
+  background-color: antiquewhite;
 }
 
 #HomePage {
@@ -41,10 +42,11 @@ body {
   top: 10px;
   right: 10px;
   margin: 10px;
+  color: aliceblue;
 }
 img {
   height: 300px;
-  width: 300px;
+  width: 400px;
 }
 h1 {
   color: rgb(223, 47, 196);
